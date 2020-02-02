@@ -47,6 +47,8 @@
     height: auto;
     margin: 20px auto;
     padding: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
   }
   #title{
     padding: 20px;
@@ -56,6 +58,8 @@
     padding: 20px;
     line-height: 2;
     border: 1px solid #f1f1f1;
+    word-break: break-all;
+    word-wrap: break-word;
   }
   #content >>> img{
     width: 100%;
@@ -65,5 +69,15 @@
     margin: 30px auto;
     width: 95px;
     height: 20px;
+  }
+  #content >>> pre, #content >>> code{
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  @media (max-width: 960px) {
+    #window{
+      width: 95%;
+    }
   }
 </style>

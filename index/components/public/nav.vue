@@ -56,4 +56,19 @@
     #inside ul li a:hover{
         background-color: #234;;
     }
+
+    @media (max-width: 1550px){
+      #inside{
+        width: 85%;
+      }
+    }
+
+  @media (max-width: 960px) {
+    #inside{
+      width: 98%;
+    }
+    #inside ul li a{
+      padding: 0 15px;
+    }
+  }
 </style>

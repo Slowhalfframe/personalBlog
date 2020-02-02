@@ -53,4 +53,28 @@ export default {
         color: #0f0f0f;
         margin-top: 20px;
     }
+
+    @media (max-width: 1550px){
+      #inside{
+        width: 85%;
+      }
+    }
+    @media (max-width: 960px) {
+      #window{
+        height: 80px;
+      }
+      #inside{
+        width: 98%;
+        height: 80px;
+      }
+      #inside h1{
+        font-size: 23px;
+        margin-top: 0px;
+      }
+      #inside h2{
+        font-size: 16px;
+        margin-top: 10px;
+        padding-left: 5px;
+      }
+    }
 </style>

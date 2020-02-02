@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div class="inside">
-            ©2019 <a href="http://www.manbanzhen.top">慢半帧</a> |
+            ©2020 <a href="http://www.manbanzhen.top">慢半帧</a> |
             备案号：<a :href="record.record_url">{{record.record_info}}</a>
         </div>
     </footer>
@@ -15,9 +15,9 @@ export default {
 
 <style scoped>
   footer{
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
     width: 100%;
     height: 50px;
   }
